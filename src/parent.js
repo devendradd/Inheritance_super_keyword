@@ -35,7 +35,7 @@ class SuccessLabelWithIcon extends Label{
 
     callLabelParent(){
         super.componentDidMount();
-        super.setState({name: "Devedra"}); //we can call a method with super as well as setState with super keyword
+        super.setState({name: "Devendra"}); //we can call a method with super as well as setState with super keyword
         super.callLabelTest();
     }
 
