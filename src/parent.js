@@ -34,9 +34,9 @@ class SuccessLabelWithIcon extends Label{
     }
 
     callLabelParent(){
-        super.componentDidMount();
+        super.componentDidMount(); // we can call parents react lifecycle methods using super keyword
         super.setState({name: "Devendra"}); //we can call a method with super as well as setState with super keyword
-        super.callLabelTest();
+        super.callLabelTest(); // call parent method using super keyword
     }
 
     render(){
